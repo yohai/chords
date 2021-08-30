@@ -4,3 +4,14 @@ span.chord-inline {font-weight:bold;}
 div.transposition a.transposition {margin:5px;}
 div.song div.transposition {margin-bottom:20px;}
 .rtl {direction:rtl}
+.column {
+  float: right;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
